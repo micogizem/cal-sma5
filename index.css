@@ -1,0 +1,30 @@
+.text p,
+.button p,
+.text b,
+i,
+.communication p, li a {
+    font-size: 12px;
+
+}
+
+.iletisim p,
+.p6 {
+    font-size: 10px;
+}
+
+.baslık,
+.contact p {
+    font-size: 21px;
+}
+
+
+input{
+    margin-right: -40px;
+}
+
+.p1 {
+    font-size: 15px;
+}
+nav b {
+    font-size: 40px;
+}

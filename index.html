@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                <a class="navbar-brand" href="#">
+                    <b>porto</b> <br>
+                    <p class="p1 ml-4 text-center">wordpress</p>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="row collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <div class=" col-6 d-inline align-self-end ml-auto  ">
+                        <p class="text-muted d-inline-block mr-2"> <span aria-hidden="true">&raquo;</span> About Us</p>
+                        <p class="text-muted d-inline-block mr-2"> <span aria-hidden="true">&raquo;</span> Contact Us
+                        </p>
+                        <p class="text-muted d-inline-block mr-2"> <i class="fas fa-phone-alt"></i> 0(123) 456 78 90</p>
+                        <form class="form-inline  d-inline-block ">
+                            <input class="form-control  rounded-pill" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-outline-seconds " type="submit">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="col-9 ">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active dropdown">
+                                <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">HOME <span
+                                        class="sr-only">(current)</span></a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">SHORTCODES</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">BLOG</a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Dropdown link
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    PAGES
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    PORTFOLIO
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    SHOP
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    ABOUT US
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    CONTACT US
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </li>
+                            <li class="my-1">
+                                <button class="rounded-circle btn btn-secondary btn-sm d-inline-block">
+                                    <a class="" href=""></a><i class="fab fa-twitter"></i></a>
+                                </button>
+                                <button class="rounded-circle btn btn-secondary btn-sm d-inline-block">
+                                    <a class="" href=""></a><i class="fab fa-instagram"></i></a>
+                                </button>
+                                <button class="rounded-circle btn btn-secondary btn-sm d-inline-block">
+                                    <a class="" href=""></a><i class="fab fa-facebook-f"></i></i></a>
+                                </button>
+
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+            </nav>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center bg-secondary">
+
+            <div class="col-4 text-center align-self-center text-white">
+                <h6>DO YOU NEED A NEW</h6>
+                <h1>WEB DESIGN?</h1>
+                <P>Check out our options and features.</P>
+            </div>
+            <div class="col-4 contact bg-light mt-3">
+                <p><b>Contact</b> Us</p>
+                <form action="">
+                    <div class="row">
+                        <div class="col text-muted">
+                            <label for="inputName">Your Name*</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="col text-muted">
+                            <label for="inputEmail">Your email adress</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row text-muted">
+                        <div class="col-12">
+                            <label for="inputSubject">Subject</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row text-muted">
+                        <div class="col-12 mb-3">
+                            <label for="inputMessage">Your Message</label>
+                            <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mb-3">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center bg-dark">
+            <div class="col-4 text text-white"><b>The fastes way to grow your
+                    business width the
+                    leader in</b> <i class="text-primary">Technology</i>
+                <p class="text-muted">Check out our options and features included.
+                </p>
+            </div>
+            <div class="col-4 button text-right align-self-center">
+                <button type="submit" class="btn btn-sm  btn-primary">Get Started Now!</button>
+                <p class="text-muted d-inline">or learn more.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-4 ">
+                <div class="col-12">
+                    <p class="baslık">Aplace where amazing things <b>Get Done!</b></p>
+                </div>
+                <div class="col-12">
+                    <p>Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit. Eaque, eveniet. Sequi doloribus nisi mollitia placeat
+                        exercitationem quisquam
+                        earum provident ratione. Ut ipsa fuga blanditiis quis quibusdam
+                        aspernatur odio, dignissimos iusto!</p>
+                </div>
+                <div class="col-12 p6">
+                    <p>Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. At doloribus hic ab obcaecati nulla quibusdam harum minima,
+                        recusandae non maiores quaerat, voluptatum temporibus, culpa sapiente aliquam velit! Ut,
+                        nesciunt est!
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col ml-3">
+                        <p class="text-primary">12 years in business</p>
+                        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing <i class="text-primary">metus</i>
+                            elit. Non
+                            consequuntur quam molestias.</p>
+                    </div>
+                    <div class="col ml-3">
+                        <p class="text-primary">Loved by customers</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum consequatur aspernatur
+                            nesciunt!
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-4">
+                <div class="col-12">
+                    <p>Our <b>Location</b></p>
+                </div>
+                <div class="col-12">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12030.004638514674!2d29.037192327255916!3d41.07989549343795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab60281cd57d3%3A0xec7305ad1a4f7d35!2zQmViZWssIDM0MzQyIEJlxZ9pa3RhxZ8vxLBzdGFuYnVs!5e0!3m2!1str!2str!4v1599643942074!5m2!1str!2str"
+                        width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+                        aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="col-12 text-muted communication">
+                    <p><a href=""><i class="fas fa-map-marker-alt"></i></a> <b>Adress:</b>1234 Street Name, City Name, United States</p>
+                    <p><a href=""><i class="fas fa-phone-alt"></i></a> <b>Phone:</b>(123) 456 78 90</p>
+                    <p><a href=""><i class="fas fa-envelope"></i></a> <b>E-mail:</b>mail@example.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
